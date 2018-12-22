@@ -1,0 +1,21 @@
+int beautifulDays(int i, int j, int k) {
+int qnt, newN = 0, m = 0;
+  int numb, count = 0, flag;
+  
+  for (int m = i; m <= j; m++) {
+     newN = 0;
+    numb = m;
+   
+    // For reversing no
+    while (num != 0) {
+      qnt = numb % 10;
+      newN = 10 * newN + quo;
+      numb = numb / 10;
+    }
+    gn = abs(m - newN);
+    if (flag % k == 0) {
+      count++;
+    }
+  }
+  return count;
+}
